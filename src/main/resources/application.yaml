@@ -1,0 +1,16 @@
+Server:
+  port: 8080
+
+  Spring:
+    datasource:
+      url: jdbc:mysql://localhost:3306/productdb
+      username: root
+      password: Bashithareddy@123
+      driverClassName: com.mysql.cj.jdbc.Driver
+      jpa:
+        database-platform: org.hibernate.dialect.MYSQL57InnoDBDialect
+        hibernate:
+        ddl-auto: update
+
+
+

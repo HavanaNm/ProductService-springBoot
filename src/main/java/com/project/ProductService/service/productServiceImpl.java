@@ -20,15 +20,14 @@ public class productServiceImpl implements productService{
     public long addProdcut(productRequest productRequest) {
         log.info("Adding Product...");
         product Product = product.builder()
-                .productName(productRequest.getName())
+                .productName(productRequest.getProductName())
                 .quantity(productRequest.getQuantity())
                 .price(productRequest.getPrice())
                 .build();
         log.info("Product added successfully");
         ProductRepository.save(Product);
-        return Product.getProduct_ID();
+        return Product.getProductId();
     }
-
     @Override
     public productResponse getProduct(Long productID) {
         log.info("Get the product for productID" + productID);

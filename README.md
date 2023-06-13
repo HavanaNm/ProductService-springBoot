@@ -2,6 +2,10 @@ Project - ProductService-springBoot
 
 Author - Bashitha Reddy Pullalarevu 
 
+Server:
+ port: 8080
+ 
+ 
 I have developed a Java microservices project called ProductService using the Spring Boot framework. The primary objective of this project is to efficiently handle API requests for placing orders, providing a seamless and reliable experience for users.
 
 I have developed ProductService using Spring Framework.

@@ -4,11 +4,11 @@ Author - Bashitha Reddy Pullalarevu
 
 I have developed a Java microservices project called ProductService using the Spring Boot framework. The primary objective of this project is to efficiently handle API requests for placing orders, providing a seamless and reliable experience for users.
 
-I have developed three components, namely ProductService, OrderService, and ServiceRegistry, using the Spring Framework.
+I have developed ProductService using Spring Framework.
 
-I have implemented separate APIs for different functionalities: for example adding a product using the ProductService component and placing an order using the OrderService component. 
+I have implemented separate APIs for different functionalities: for example adding a product, reduce quantity using the ProductService component.
 
-In this project, the Service Registry (Eureka Server) is utilized to facilitate the connection between the ProductService and OrderService components. 
+In this project, the Service Registry (Eureka Server) is utilized to facilitate the connection of ProductService.
 
 I have used Feign Client acts as a client-side HTTP client and allows the ProductService to make requests to the OrderService API. By employing Feign Client and integrating it with the Spring Framework, I have established a seamless interaction between the ProductService and OrderService, enabling the necessary API calls to handle product quantity reduction effectively.
 
